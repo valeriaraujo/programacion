@@ -1,0 +1,23 @@
+// calculo de impuesto.cpp : Defines the entry point for the console application.
+//
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+
+using namespace std; 
+
+void main()
+{   float k,i,I;
+    int n;
+	cout<< "ingrese n";
+	cin>>n;
+	cout<<"ingrese i";
+	cin>>i;
+	cout<<"ingrese I";
+	cin>>I;
+    k=I/(i*n);
+	cout<< "el valor de k es";
+	cout<< k;
+	getch();
+}
+
