@@ -1,0 +1,36 @@
+
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+
+{
+        cout<<" CALCULO DEL PAGO DE IMPUESTOS " ;
+
+        float sueldo,imp, sueldobase, AFP;
+
+        
+        cout<<"ingrese el sueldo minimo: ";
+                cin>>sueldobase;
+                cout<<"ingrese el sueldo para calcular su impuesto: ";
+                cin>>sueldo;
+
+                if(sueldo>2*sueldobase) 
+                
+                {impuesto=sueldo*0.13;
+                AFP=sueldo*0.12;
+                cout<<"el impu a pagar es: "<<imp <<"\n";
+                cout<<"el AFP a pagar es: "<<AFP;
+}
+                
+                else
+                {cout<<"no paga impuestos ni AFP" ; }
+
+        
+      return (0);
+
+}
