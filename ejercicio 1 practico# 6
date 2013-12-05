@@ -1,0 +1,19 @@
+//suma de numeros enteros de 1 a N
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int main()
+{        float N,S,I;
+    cout<< "ingrese numero:";
+    cin>> N;
+    S=0;
+    for (I=1;I<=N;I++)
+        S=S+I;
+    cout<< "la suma es:";
+    cout<< S;
+    getch ();
+}
