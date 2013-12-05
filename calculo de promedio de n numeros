@@ -1,0 +1,23 @@
+#include"stdafx.h"
+#include<iostream.h>
+#include"conio.h"
+
+int v[N];
+void main()
+{
+ float pro;
+ int s = 0, con = 0;
+ 
+ for (int i = 0; i < N; i++)
+ {
+   con++;
+   cout<<\n digite numero "<<con<<" : ";
+   cin>>v[i];
+   s = s + v[i];
+ }
+
+ pro = s / N;
+ cout<<"el promedio de los N numeros digitados es: "<<pro;
+ 
+ getch(); 
+}
