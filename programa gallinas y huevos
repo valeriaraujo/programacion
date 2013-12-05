@@ -1,0 +1,53 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main ()
+
+{
+    int numgran, numhue, huexga;
+    float promtam, IAC, precio, acu, c, h, tam, m;
+        
+    cout<<"INGRESE EL NUMERO DE GRANJAS: ";
+    cin>>numgran;
+
+    acu=0;
+    m=1;
+
+    for (c=1; c<=numgran; c++)
+    {
+        cout<<"INGRESE EL NUMERO DE HUEVOS TOTAL DE LA GRANJA No. "<< c << ":";
+        cin>>numhue;
+
+        cout<<"INGRESE EL PROMEDIO DE HUEVOS POR GALLINA: ";
+        cin>>huexga;
+
+         for (h=1; h<=numhue; h++)
+         {
+            cout<<"INGRESE EL TAMAÑO DEL HUEVO " << m << "EN CM: ";
+            cin>>tam;
+            m=m+1;
+            acu=acu+tam;
+         }
+
+        promtam=acu/numhue;
+
+        IAC=promtam/huexga;
+
+        if(IAC>5)
+        {
+           cout<<"EL PRECIO DE SUS HUEVOS ES DE 5 BS";
+        }
+
+        else
+        {
+           cout<<"EL PRECIO DE SUS HUEVOS ES DE 4 BS" << "\n";
+        }
+        
+        getch();
+
+    }
+        
+}
