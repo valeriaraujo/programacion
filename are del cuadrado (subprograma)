@@ -1,0 +1,26 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int area(int &base , int &altura)
+
+int main()
+{  
+   cout<< " ingrese base";
+   cin>> b;
+   cout<< " ingrese altura";
+   cin>> h;
+  area(base , altura);
+  
+  return (area);
+}
+
+
+int area(int &base , int &altura)
+{  
+   int A;
+   A = b*A;
+   return (A);
+}
