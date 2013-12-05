@@ -1,0 +1,28 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int main()
+
+{
+        float sueldobase,sueldo,imp;
+
+        cout<<"ingrese el sueldo minimo: ";
+                cin>>sueldobase;
+                cout<<"ingrese el sueldo para calcular su impuesto: ";
+                cin>>sueldo;
+
+                if(sueldo>2*sueldobase) 
+                {imp=sueldo*0.13;
+                }
+                else
+                        imp=0;
+
+                cout<<"el imp a pagar es: "<<imp;
+
+                        getch();
+
+        return 0;
+}
