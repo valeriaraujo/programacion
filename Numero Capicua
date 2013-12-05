@@ -1,0 +1,45 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#define N100
+
+using namespace std;
+void leer (int vec[N],int &n)
+ int main()
+ {
+  int vec[N],n;
+  int i,j,band;
+  leer(vec,n);
+  i = 0
+  j = n-1;
+  band = 0;
+  while(i<j)
+  { 
+    if(vec[i]!= vec[j])
+    { 
+      cout<<"no es capicua";
+      band = 1;
+      break;
+    }
+    if(band==0)
+      cout<<"es capicua";
+      return0;
+      
+  } 
+}
+
+void leer (int vec[N],int &n)
+
+{  
+   cout<< "elementos del vector";
+   cout<< tamaño";
+   cin>> n;
+   for(int i =0; i<n; i++)
+   { 
+     cout<< " vec["<< i <<"] =";
+     cin>> vec[i];
+     
+   }
+ } 
+   
+   
