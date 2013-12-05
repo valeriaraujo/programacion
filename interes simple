@@ -1,0 +1,23 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int main()
+
+{
+  float K,i,I;
+  int n;
+  cout<<"ingrese K:";
+  cin>>K;
+  cout<<"ingrese i:";
+  cin>>i;
+  cin>>n;
+  I=K*i*n/360;
+  cout<<"El I es:";
+  cout<<I;
+
+   getch();
+    eturn 0;
+}
