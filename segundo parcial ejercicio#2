@@ -1,0 +1,27 @@
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+#include "math.h"
+
+using namespace std;
+
+
+int main()
+{
+  int N,i,digito;
+  cout<< "ingrese el numero";
+  cin>> N;
+  i=0;
+  while (N>0)
+  {(digito=N%10;
+   N=N/10;
+   if(digito%2!=0)
+         i=i+1;
+   cout<<digito;
+  }
+  cout<<"el contador es:";
+  cout<<i;
+ 
+  getch();
+  return 0;
+}
